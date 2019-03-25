@@ -1,3 +1,6 @@
 jdk:
-  - openjdk11
-
+  - adoptopenjdk11
+before_install:
+  - ./adopt-open-jdk-11-setup.sh
+install:
+  sbt -Dsbt.log.noformat=true clean publishM2
