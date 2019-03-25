@@ -7,7 +7,7 @@ object Main extends App{
     "Networks.apply.hostname1",
     "Networks.apply.hostname2",
     "Networks.apply.hostname3")
-  
+
   println("Hello this is just a test")
 
 }
